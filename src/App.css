@@ -1,0 +1,25 @@
+div, input, textarea{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+button{
+  cursor:pointer;
+}
+
+li{
+  list-style-type: none;
+}
+
+.base-container
+{
+  background: white;
+  color:grey;
+  font-size:1.125rem;
+  padding:24px;
+  min-height: 100vh;    /* 최소 높이를 보이는 부분의 100%로 */
+}

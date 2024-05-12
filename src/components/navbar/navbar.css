@@ -1,0 +1,55 @@
+.nav-flex-container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:32px 0;
+  max-width:1152px;
+  margin:auto;
+  gap:1.25rem;   /*px: 고정, rem: 부모의 폰트사이즈에 따라 유동적 (부모가 16px이면->1rem == 16px)*/
+}
+
+.nav-logo{
+  font-size:1.5rem;
+  font-weight: bold;
+  color:black;
+}
+
+.nav-search-input{
+  background:rgba(255, 255, 255, 0.75);
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  border:none;
+  outline:none;
+  width:280px;
+  box-shadow: 2px 6px 4px 2px rgba(254, 202, 202, 0.25);
+  transition: box-shadow 0.3s;    /* box-shadow에 대한 이벤트는 0.3초가 소요되게끔 */
+}
+
+.nav-search-input:focus{
+  box-shadow: 2px 6px 4px 2px rgba(254, 202, 202, 0.65);
+}
+
+.nav-link-ul{
+  display: flex;
+  gap: 1.25rem;   /* flex 안에 있는 태그들에 갭을 준다*/
+}
+
+.nav-link-li{
+  color:black;
+  transition: color 0.3s;
+}
+
+.nav-link-li:hover{
+  color:brown;
+}
+
+@media (min-width:1024px){
+  .nav-flex-container
+  {
+    gap:0;
+  }
+
+  .nav-search-input{
+    width:24rem;
+  }
+}

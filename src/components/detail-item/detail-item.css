@@ -1,0 +1,37 @@
+.detail-item-container{
+  display: flex;
+  flex-direction: column;
+  width:20rem;
+  overflow: hidden;
+  padding:1.25rem;
+  background: rgba(255, 255, 255, 0.75);
+  gap:1.25rem;
+  border: 2px solid white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.img-box{
+  display: flex;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+.img-style{
+  display: block;
+  width:100%;
+}
+
+.text-publisher{
+
+}
+
+.text-title{
+
+}
+
+.link-detail{
+
+}
