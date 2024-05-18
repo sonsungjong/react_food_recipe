@@ -25,13 +25,24 @@
 }
 
 .text-publisher{
-
+  color:darkgreen;
+  font-weight: 600;
 }
 
 .text-title{
-
+  color:black;
+  font-size:1.5rem;
+  white-space:nowrap; /*한줄로*/
+  text-overflow: ellipsis; /* ... 처리 */
+  overflow: hidden;
+  margin: 16px 0 24px 0;  /* 위에서부터 시계방향 */
 }
 
 .link-detail{
-
+  display:inline-block;
+  background: black;
+  color:white;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  letter-spacing: 1.5px;/*글자간격 넓히기*/
 }
